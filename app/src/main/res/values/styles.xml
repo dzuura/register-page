@@ -4,8 +4,9 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">20dp</item>
-        <item name="boxBackgroundMode">filled</item>
+        <item name="boxBackgroundMode">outline</item>
         <item name="boxBackgroundColor">#EDEDED</item>
+        <item name="boxStrokeWidth">0dp</item>
         <item name="boxCornerRadiusTopStart">12dp</item>
         <item name="boxCornerRadiusTopEnd">12dp</item>
         <item name="boxCornerRadiusBottomStart">12dp</item>

@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Register</string>
     <string name="title1">Register</string>
+    <string name="title2">Login</string>
+    <string name="title3">Homepage</string>
     <string name="confirmation">By Checking the box you agree to our <font color="#525BFF">Terms</font> and <font color="#525BFF">Conditions</font></string>
     <string name="acc_confirmation">Already Have an Account? <font color="#525BFF">Log In</font></string>
     <string name="acc_member">New Member? <font color="#525BFF">Register</font></string>
-    <string name="title2">Login</string>
     <string name="remember">Remember Me</string>
-    <string name="title3">Homepage</string>
 </resources>

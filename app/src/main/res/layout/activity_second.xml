@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="24dp"
     android:background="@android:color/white"
     tools:context=".SecondActivity">
@@ -13,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="180dp"
         android:fontFamily="@font/poppins"
         android:text="@string/title2"
         android:textSize="24sp"
@@ -22,20 +21,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/user_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        style="@style/InputLayout"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/txt_login"
-        android:elevation="6dp"
-        android:hint="Username"
-        app:boxBackgroundMode="filled"
-        app:boxBackgroundColor="#EDEDED"
-        app:boxStrokeWidth="0dp"
-        app:boxCornerRadiusTopStart="18dp"
-        app:boxCornerRadiusTopEnd="18dp"
-        app:boxCornerRadiusBottomStart="18dp"
-        app:boxCornerRadiusBottomEnd="18dp">
+        android:hint="Username">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_user"
@@ -44,18 +33,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/InputLayout"
         android:layout_marginBottom="0dp"
         android:layout_below="@+id/user_layout"
-        android:hint="Password"
-        app:boxBackgroundMode="filled"
-        app:boxBackgroundColor="#EDEDED"
-        app:boxStrokeWidth="0dp"
-        app:boxCornerRadiusTopStart="18dp"
-        app:boxCornerRadiusTopEnd="18dp"
-        app:boxCornerRadiusBottomStart="18dp"
-        app:boxCornerRadiusBottomEnd="18dp">
+        android:hint="Password">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_password"
@@ -69,8 +50,7 @@
         android:layout_below="@+id/password_layout"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
-        android:layout_marginStart="10dp"
-        />
+        android:layout_marginStart="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -80,8 +60,7 @@
         android:fontFamily="@font/poppins"
         android:text="@string/remember"
         android:textSize="10sp"
-        android:layout_marginTop="16dp"
-        />
+        android:layout_marginTop="16dp" />
 
     <TextView
         android:layout_width="wrap_content"
